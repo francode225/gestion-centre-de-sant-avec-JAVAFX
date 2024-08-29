@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1318.0" style="-fx-background-color: white;" stylesheets="@style_yeo.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaweb.alem.controller.medecine.ConsultationController">
+    <children>
+        <ImageView fitHeight="853.0" fitWidth="850.0" layoutX="-292.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/fond.jpg" />
+            </image>
+        </ImageView>
+        <Pane layoutX="72.0" layoutY="99.0" prefHeight="522.0" prefWidth="392.0" style="-fx-background-color: #70FFA5;" styleClass="forme">
+            <children>
+                <ImageView fitHeight="364.0" fitWidth="228.0" layoutX="119.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/infirmier.png" />
+                    </image>
+                </ImageView>
+            <Text layoutX="39.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Page De Consultation" wrappingWidth="334.0200004577637">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            </children>
+        </Pane>
+        <Pane layoutX="573.0" layoutY="45.0" prefHeight="790.0" prefWidth="731.0" style="-fx-background-color: f2f2f2;" styleClass="forme2" AnchorPane.leftAnchor="573.0" AnchorPane.rightAnchor="14.0">
+            <children>
+                <Text layoutX="35.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consultation" wrappingWidth="334.0200004577637">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Text>
+                <Label layoutX="35.0" layoutY="67.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Examen à faire">
+                    <font>
+                        <Font name="Poppins Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Button fx:id="storeConsultationButton" layoutX="513.0" layoutY="707.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="188.0" styleClass="save_carnet" text="Enregistrer" textFill="WHITE">
+                    <font>
+                        <Font name="Provicali" size="30.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <TextArea fx:id="examenArea" layoutX="35.0" layoutY="93.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+            <Label layoutX="381.0" layoutY="258.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Diagnostique">
+               <font>
+                  <Font name="Poppins Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="diagnostiqueTextArea" layoutX="381.0" layoutY="284.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+            <Label layoutX="35.0" layoutY="258.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Prescription medicaments">
+               <font>
+                  <Font name="Poppins Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="prescriptionTextArea" layoutX="35.0" layoutY="284.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+            <CheckBox fx:id="examenBox" layoutX="242.0" layoutY="67.0" mnemonicParsing="false" text="Faire examen ?" />
+            <Label layoutX="381.0" layoutY="67.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Acte Medical">
+               <font>
+                  <Font name="Poppins Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="acteMedTextArea" layoutX="381.0" layoutY="93.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+            <CheckBox fx:id="observationBox" layoutX="35.0" layoutY="659.0" mnemonicParsing="false" text="Envoyer le patient en observation" />
+            <DatePicker fx:id="dateRdv" layoutX="513.0" layoutY="655.0" />
+            <Label layoutX="365.0" layoutY="659.0" text="Date retour verification" />
+            <Label layoutX="35.0" layoutY="452.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Observation">
+               <font>
+                  <Font name="Poppins Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="observationArea" layoutX="35.0" layoutY="478.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+            <Label layoutX="388.0" layoutY="452.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Prescription Soins">
+               <font>
+                  <Font name="Poppins Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="prescriptionSoinsTextArea" layoutX="388.0" layoutY="478.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+            </children></Pane>
+    </children>
+</AnchorPane>

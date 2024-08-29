@@ -1,0 +1,11 @@
+
+{
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(Ùó–©˙ˇˇˇˇ8Ïƒ√ﬂ˙1
+p
+java:S16021"SRemove useless curly braces around statement and then remove useless return keyword(∫™∆≠8ï≈√ﬂ˙1
+I
+java:S16029",Remove useless curly braces around statement(µ∂√®8ó≈√ﬂ˙1
+]
+java:S1858:"A"getText" returns a string, there's no need to call "toString()".(˜Ë˙`8ó≈√ﬂ˙1
+I
+java:S1602>",Remove useless curly braces around statement(í‰ı“8ò≈√ﬂ˙1

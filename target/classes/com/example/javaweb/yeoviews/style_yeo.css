@@ -1,0 +1,89 @@
+.card{
+    -fx-background-color:#fff;
+    -fx-background-radius:10;
+}
+
+.card2{
+    -fx-background-color:#EC505C;
+    -fx-background-radius:10;
+}
+
+.titre{
+    -fx-background-color: #EC505C;
+    -fx-background-radius:0 10 0 30;
+}
+
+.carte{
+    -fx-background-color: #EC505C;
+    -fx-background-radius:300 300 150 150;
+
+}
+
+.forme{
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 10,0,0,1 );
+    -fx-border-width: 10;
+    -fx-border-color: white;
+}
+
+.forme2{
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 2,0,0,1 );
+    -fx-border-raduis: 30;
+
+}
+
+.champ{
+    -fx-background-color: white;
+    -fx-background-radius: 50;
+    -fx-border-width: 0;
+}
+
+.champ_carnet{
+    -fx-background-color: white;
+
+    -fx-border-width: 0;
+}
+
+.button_co{
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 20,0,0,1 );
+    -fx-font-family: "Provicali";
+    -fx-font-size: 28;
+}
+
+.button_co:hover {
+    -fx-background-color: #6FB5FC;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 20, 0, 0, 1);
+}
+
+.oublie:hover{
+    -fx-background-color:  #f2f2f2;
+
+}
+
+.connexion:hover{
+    -fx-background-color: #70FFA5;
+}
+
+.text{
+    -fx-font-family: "Provicali";
+    -fx-font-weight: bold;
+}
+
+.titre{
+    -fx-font-family: "Provicali";
+    -fx-font-weight: bold;
+}
+
+.hello{
+    -fx-effect: dropshadow(gaussian, rgba(67, 135, 206), 10, 0, 0, 5);
+}
+
+.save_carnet{
+    -fx-background-color: #4387CE;
+    -fx-font-family: provicali;
+    -fx-font-size: 17;
+    -fx-font-weight: 1;
+
+}

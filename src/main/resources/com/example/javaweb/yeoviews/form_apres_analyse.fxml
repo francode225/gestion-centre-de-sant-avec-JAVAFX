@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1318.0" style="-fx-background-color: white;" stylesheets="@style_yeo.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaweb.alem.controller.medecine.AfterAnalyseController">
+    <children>
+        <ImageView fitHeight="824.0" fitWidth="846.0" layoutX="-292.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image/fond.jpg" />
+            </image>
+        </ImageView>
+        <Pane layoutX="72.0" layoutY="99.0" prefHeight="522.0" prefWidth="392.0" style="-fx-background-color: #70FFA5;" styleClass="forme">
+            <children>
+                <ImageView fitHeight="364.0" fitWidth="228.0" layoutX="119.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/infirmier.png" />
+                    </image>
+                </ImageView>
+            <Text layoutX="14.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consultation Post Analyse" wrappingWidth="406.8199272155762">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            </children>
+        </Pane>
+      <TabPane layoutX="532.0" layoutY="-1.0" prefHeight="834.0" prefWidth="811.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="532.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Consultattion">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane layoutX="20.0" layoutY="35.0" prefHeight="734.0" prefWidth="771.0" style="-fx-background-color: f2f2f2;" styleClass="forme2" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+                           <children>
+                              <Text layoutX="35.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consultation" wrappingWidth="334.0200004577637">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Text>
+                              <Label layoutX="35.0" layoutY="67.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Examen à faire">
+                                 <font>
+                                    <Font name="Poppins Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="storeConsultationButton" layoutX="538.0" layoutY="668.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="188.0" styleClass="save_carnet" text="Enregistrer" textFill="WHITE">
+                                 <font>
+                                    <Font name="Provicali" size="30.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                              <TextArea fx:id="examenArea" disable="true" layoutX="35.0" layoutY="93.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+                              <Label layoutX="381.0" layoutY="258.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Diagnostique">
+                                 <font>
+                                    <Font name="Poppins Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="diagnostiqueTextArea" layoutX="381.0" layoutY="284.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+                              <Label layoutX="35.0" layoutY="258.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Prescription">
+                                 <font>
+                                    <Font name="Poppins Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="prescriptionTextArea" layoutX="35.0" layoutY="284.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+                              <Label layoutX="381.0" layoutY="67.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Acte Medical">
+                                 <font>
+                                    <Font name="Poppins Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="acteMedTextArea" layoutX="381.0" layoutY="93.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+                              <CheckBox fx:id="observationBox" layoutX="35.0" layoutY="651.0" mnemonicParsing="false" text="Envoyer le patient en observation" />
+                              <DatePicker fx:id="dateVerif" layoutX="190.0" layoutY="680.0" />
+                              <Label layoutX="40.0" layoutY="684.0" text="Date retour verification" />
+                              <Label layoutX="34.0" layoutY="456.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Observation">
+                                 <font>
+                                    <Font name="Poppins Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="prescriptionTextArea1" layoutX="34.0" layoutY="482.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+                              <Label layoutX="382.0" layoutY="456.0" opacity="0.51" prefHeight="14.0" prefWidth="139.0" text="Prescription Soins">
+                                 <font>
+                                    <Font name="Poppins Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="prescriptionSoinsTextArea" layoutX="382.0" layoutY="482.0" prefHeight="139.0" prefWidth="313.0" styleClass="champ_carnet" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Resultat">
+               <content>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="389.6000122070312" minHeight="10.0" prefHeight="98.99999694824218" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="753.5999961853028" minHeight="10.0" prefHeight="707.0000030517579" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="401.20001220703125" minWidth="10.0" prefWidth="322.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="561.2000122070312" minWidth="10.0" prefWidth="490.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <GridPane GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints maxHeight="62.4" minHeight="10.0" prefHeight="55.20000305175781" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="68.5999969482422" minHeight="10.0" prefHeight="43.99999694824218" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label text="Nom &amp; Prenom Patient" GridPane.halignment="CENTER" />
+                                    <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                                    <Label fx:id="nomPrenomLabel" text="Label" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                                    <Label text="Laborantin" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                                    <Label fx:id="nomLaborantinLabel" text="Label" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                                    <Label text="Date time Analyse" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                                    <Label fx:id="datetimeAnalyseLabel" text="Label" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </GridPane>
+                        <GridPane GridPane.rowIndex="1">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="495.5999755859375" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="316.4000244140625" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="504.6000122070312" minHeight="10.0" prefHeight="504.6000122070312" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="335.0000061035156" minHeight="10.0" prefHeight="202.19998779296873" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TextArea fx:id="resultatTextArea" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="505.0" prefWidth="498.0" promptText="Resultat" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+                                 <GridPane.margin>
+                                    <Insets left="3.0" right="3.0" />
+                                 </GridPane.margin>
+                                 <padding>
+                                    <Insets top="50.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </TextArea>
+                              <TextArea fx:id="observationTextArea" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" promptText="Observations" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+                                 <GridPane.margin>
+                                    <Insets right="3.0" />
+                                 </GridPane.margin>
+                                 <padding>
+                                    <Insets top="50.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </TextArea>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Resultat De L'Analyse" textAlignment="CENTER" wrappingWidth="334.0200004577637" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Observation" textAlignment="CENTER" wrappingWidth="334.0200004577637" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </GridPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+    </children>
+</AnchorPane>

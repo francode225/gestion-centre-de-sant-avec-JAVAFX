@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1315.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox alignment="CENTER" prefHeight="810.0" prefWidth="274.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="45.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="38.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/img%20medical/icons8-dashboard-layout-100.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="45.0" prefWidth="168.0" text="Tableau de board">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/img%20medical/icons8-care-100.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="45.0" prefWidth="168.0" text="Profil">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/img%20medical/icons8-patient-100.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="45.0" prefWidth="168.0" text="Patients">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/img%20medical/icons8-consultation-100.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="45.0" prefWidth="168.0" text="Consultations">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="45.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/img%20medical/icons8-patients-100.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="45.0" prefWidth="168.0" text="Patients Analyse T.">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+         <styleClass>
+            <String fx:value="white-background" />
+            <String fx:value="right-side-border" />
+         </styleClass>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="1041.0" spacing="20.0" styleClass="white-background">
+               <children>
+                  <Pane prefHeight="62.0" prefWidth="328.0" HBox.hgrow="ALWAYS" />
+                  <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="30.0" prefWidth="278.0" styleClass="search-container">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img%20medical/icons8-search-100.png" />
+                           </image>
+                        </ImageView>
+                        <TextField prefHeight="44.0" prefWidth="192.0" promptText="Rechercher" styleClass="transparent">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <ImageView fitHeight="50.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../img%20medical/icons8-bell-100.png" />
+                     </image>
+                  </ImageView>
+                  <HBox>
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img%20medical/icons8-person-100.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="50.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../img%20medical/icons8-bell-100.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="20.0" top="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" styleClass="primary-color" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label text="Tableau de board">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="120.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <VBox prefHeight="120.0" prefWidth="260.0" styleClass="card">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="46.0" prefWidth="240.0">
+                                       <children>
+                                          <Label prefHeight="44.0" prefWidth="115.0" text="PATIENTS">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Pane prefHeight="44.0" prefWidth="102.0" />
+                                          <ImageView fitHeight="44.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/icons8-group-100.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Label prefHeight="84.0" prefWidth="284.0" text="12k">
+                                       <font>
+                                          <Font name="System Bold" size="30.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="120.0" prefWidth="260.0" styleClass="card2">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="46.0" prefWidth="240.0">
+                                       <children>
+                                          <Label prefHeight="44.0" prefWidth="113.0" text="MEDECIN">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Pane prefHeight="44.0" prefWidth="102.0" />
+                                          <ImageView fitHeight="44.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/icons8-doctor-male-100.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Label prefHeight="84.0" prefWidth="284.0" text="200">
+                                       <font>
+                                          <Font name="System Bold" size="30.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="120.0" prefWidth="260.0" styleClass="card">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="46.0" prefWidth="240.0">
+                                       <children>
+                                          <Label prefHeight="44.0" prefWidth="126.0" text="ANALYSES">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Pane prefHeight="44.0" prefWidth="102.0" />
+                                          <ImageView fitHeight="44.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/icons8-analyse-100.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Label prefHeight="84.0" prefWidth="284.0" text="30">
+                                       <font>
+                                          <Font name="System Bold" size="30.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="120.0" prefWidth="260.0" styleClass="card">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="46.0" prefWidth="240.0">
+                                       <children>
+                                          <Label prefHeight="44.0" prefWidth="243.0" text="CONSULTATIONS">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Pane prefHeight="44.0" prefWidth="102.0" />
+                                          <ImageView fitHeight="44.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/icons8-consultation-100.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Label prefHeight="84.0" prefWidth="284.0" text="18">
+                                       <font>
+                                          <Font name="System Bold" size="30.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="308.0" prefWidth="981.0" spacing="20.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="136.0" text="Medecins">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="243.0" prefWidth="981.0" spacing="20.0" styleClass="card">
+                           <children>
+                              <VBox prefHeight="127.0" prefWidth="180.0">
+                                 <children>
+                                    <Pane prefHeight="117.0" prefWidth="172.0" style="-fx-background-color: #FDDB87;" styleClass="card">
+                                       <children>
+                                          <ImageView fitHeight="152.0" fitWidth="114.0" layoutX="28.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/man.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="33.0" prefWidth="180.0" text="Clients">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="20.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="31.0" prefWidth="180.0" text="email@gmail.com" textFill="#6f6f6f">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="127.0" prefWidth="180.0">
+                                 <children>
+                                    <Pane prefHeight="115.0" prefWidth="172.0" style="-fx-background-color: #F4D2E2;" styleClass="card">
+                                       <children>
+                                          <ImageView fitHeight="112.0" fitWidth="134.0" layoutX="34.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/girl%20(1).png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="33.0" prefWidth="180.0" text="Clients">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="20.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="31.0" prefWidth="180.0" text="email@gmail.com" textFill="#6f6f6f">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="127.0" prefWidth="180.0">
+                                 <children>
+                                    <Pane prefHeight="115.0" prefWidth="172.0" style="-fx-background-color: #46CFC3;" styleClass="card">
+                                       <children>
+                                          <ImageView fitHeight="112.0" fitWidth="134.0" layoutX="34.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/boy.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="33.0" prefWidth="180.0" text="Clients">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="20.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="31.0" prefWidth="180.0" text="email@gmail.com" textFill="#6f6f6f">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="127.0" prefWidth="180.0">
+                                 <children>
+                                    <Pane prefHeight="113.0" prefWidth="172.0" style="-fx-background-color: #A7D1B1;" styleClass="card">
+                                       <children>
+                                          <ImageView fitHeight="112.0" fitWidth="134.0" layoutX="34.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/girl.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="33.0" prefWidth="180.0" text="Clients">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="20.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="31.0" prefWidth="180.0" text="email@gmail.com" textFill="#6f6f6f">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="127.0" prefWidth="180.0">
+                                 <children>
+                                    <Pane prefHeight="113.0" prefWidth="173.0" style="-fx-background-color: #FF6C30;" styleClass="card">
+                                       <children>
+                                          <ImageView fitHeight="112.0" fitWidth="134.0" layoutX="34.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../img%20medical/man2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="33.0" prefWidth="180.0" text="Clients">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="20.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="31.0" prefWidth="180.0" text="email@gmail.com" textFill="#6f6f6f">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <HBox prefHeight="176.0" prefWidth="981.0" spacing="20.0">
+                     <children>
+                        <VBox prefHeight="196.0" prefWidth="472.0" styleClass="card">
+                           <children>
+                              <Label prefHeight="55.0" prefWidth="220.0" text="Patients Gardés">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <HBox prefHeight="40.0" prefWidth="568.0">
+                                 <children>
+                                    <Label prefHeight="55.0" prefWidth="106.0" text="M. Koffi">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Pane prefHeight="47.0" prefWidth="278.0" />
+                                    <Label prefHeight="55.0" prefWidth="106.0" text="Ch. 5">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="40.0" prefWidth="568.0">
+                                 <children>
+                                    <Label prefHeight="55.0" prefWidth="106.0" text="Mde Yao">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Pane prefHeight="47.0" prefWidth="278.0" />
+                                    <Label prefHeight="55.0" prefWidth="106.0" text="Ch. 8">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="40.0" prefWidth="568.0">
+                                 <children>
+                                    <Label prefHeight="47.0" prefWidth="164.0" text="Enft. Kouadio">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Pane prefHeight="47.0" prefWidth="227.0" />
+                                    <Label prefHeight="55.0" prefWidth="106.0" text="Ch10">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="196.0" prefWidth="487.0" styleClass="card">
+                           <children>
+                              <Label prefHeight="55.0" prefWidth="174.0" text="Rdv du Jours">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </Label>
+                              <HBox prefHeight="40.0" prefWidth="568.0">
+                                 <children>
+                                    <Label prefHeight="47.0" prefWidth="187.0" text="Patient N°PAT3652">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Pane prefHeight="47.0" prefWidth="165.0" />
+                                    <Label prefHeight="47.0" prefWidth="168.0" text="Docteur AKA">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="40.0" prefWidth="568.0">
+                                 <children>
+                                    <Label prefHeight="47.0" prefWidth="183.0" text="Patient N°PAT4578">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Pane prefHeight="47.0" prefWidth="169.0" />
+                                    <Label prefHeight="47.0" prefWidth="171.0" text="Docteur KOURY">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="40.0" prefWidth="568.0">
+                                 <children>
+                                    <Label prefHeight="47.0" prefWidth="190.0" text="Patient N°PAT9865">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Pane prefHeight="47.0" prefWidth="169.0" />
+                                    <Label prefHeight="47.0" prefWidth="174.0" text="Docteur TOURE">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

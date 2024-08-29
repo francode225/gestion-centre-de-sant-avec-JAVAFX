@@ -1,0 +1,18 @@
+
+l
+java:S1192<"ODefine a constant instead of duplicating this literal "type_personnel" 6 times.(ØÚ´ª8®»²÷ú1
+r	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£±§¬ÿÿÿÿÿ8¯»²÷ú1
+m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø°Áã8¯»²÷ú1
+S
+java:S1172'"6Remove this unused method parameter "statutPersonnel".(ĞŠ®„8Â»²÷ú1
+W
+java:S2209."5Change this instance-reference to a static reference.(â÷š¨ÿÿÿÿÿ8Ä»²÷ú1
+G	java:S106:"+Replace this use of System.out by a logger.(±æ¶Ò8Ê»²÷ú1
+j	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½•óø8Î»²÷ú1
+o	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£±§¬ÿÿÿÿÿ8Ğ»²÷ú1
+o	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÚÒ§ùÿÿÿÿ8Ò»²÷ú1
+o	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÄÃöıÿÿÿÿ8Ò»²÷ú1
+j	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø°Áã8Ó»²÷ú1
+i	java:S100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬§+8Ô»²÷ú1
+L
+java:S1068"/Remove this unused "listPatient" private field.(¯ì·¼8Ö»²÷ú1

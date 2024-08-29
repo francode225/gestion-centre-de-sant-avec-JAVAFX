@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="778.0" prefWidth="1315.0" style="-fx-background-color: #f2f2f2;" stylesheets="@yeoviews/style_yeo.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaweb.alem.controller.Begin">
+    <children>
+      <Pane layoutX="575.0" layoutY="67.0" prefHeight="568.0" prefWidth="697.0" style="-fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50;" styleClass="forme2">
+         <children>
+            <ImageView fx:id="graphe" fitHeight="588.0" fitWidth="616.0" layoutX="40.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" styleClass="graphe">
+               <image>
+                  <Image url="@yeoviews/image/graphe.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="medecin" fitHeight="226.0" fitWidth="238.0" layoutX="245.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true" styleClass="medecin">
+               <image>
+                  <Image url="@yeoviews/image/hopital.png" />
+               </image>
+            </ImageView>
+            <ProgressBar fx:id="progressbar" layoutX="195.0" layoutY="510.0" prefHeight="24.0" prefWidth="358.0" progress="0.0" />
+         </children></Pane>
+      <Text fx:id="titre" layoutX="203.0" layoutY="153.0" opacity="0.44" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titre" text="Bienvenue dans votre logiciel de gestion medical" wrappingWidth="274.13671875">
+         <font>
+            <Font name="Poppins Bold" size="34.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="328.0" fitWidth="275.0" layoutX="184.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" styleClass="hello">
+         <image>
+            <Image url="@yeoviews/image/hello.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

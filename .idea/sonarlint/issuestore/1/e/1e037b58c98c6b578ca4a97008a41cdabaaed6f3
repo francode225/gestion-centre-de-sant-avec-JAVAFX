@@ -1,0 +1,30 @@
+
+i
+java:S1192d"LDefine a constant instead of duplicating this literal "nom_prenoms" 5 times.(»Ôş8À¨ßÆü1
+m
+java:S1192f"KDefine a constant instead of duplicating this literal "specialite" 4 times.(×¸°ûÿÿÿÿ8Á¨ßÆü1
+j
+java:S1192f"HDefine a constant instead of duplicating this literal "libelle" 3 times.(×¸°ûÿÿÿÿ8ä¾ßÆü1
+t
+java:S1192e"WDefine a constant instead of duplicating this literal "libelle_type_personnel" 3 times.(ÆÕ–İ8Á¨ßÆü1
+i
+java:S1192f"GDefine a constant instead of duplicating this literal "id_spe" 3 times.(×¸°ûÿÿÿÿ8Á¨ßÆü1
+n
+java:S1192k"QDefine a constant instead of duplicating this literal "id_grade_medical" 4 times.(Óİ¦8Á¨ßÆü1
+z
+java:S1192l"XDefine a constant instead of duplicating this literal "date_creation_personnel" 5 times.(ÉÍùÿÿÿÿ8Á¨ßÆü1
+k
+java:S1192k"NDefine a constant instead of duplicating this literal "grade_medical" 3 times.(Óİ¦8Á¨ßÆü1
+l
+java:S1192e"ODefine a constant instead of duplicating this literal "type_personnel" 8 times.(ÆÕ–İ8Á¨ßÆü1
+s
+java:S1192h"QDefine a constant instead of duplicating this literal "numero_telephone" 5 times.(Ìö¿şúÿÿÿÿ8Á¨ßÆü1
+o
+java:S1192e"RDefine a constant instead of duplicating this literal "id_type_personnel" 3 times.(ÆÕ–İ8Á¨ßÆü1
+i
+java:S1192c"MDefine a constant instead of duplicating this literal "id_personnel" 5 times.(·Õ³}8Á¨ßÆü1
+o
+java:S1192k"RDefine a constant instead of duplicating this literal "lib_grade_medical" 3 times.(Óİ¦8›àÆü1
+L	java:S106s"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Á©ßÆü1
+H	java:S106¨"+Replace this use of System.out by a logger.(ÿê§¯8Æ©ßÆü1
+H	java:S106Ì"+Replace this use of System.out by a logger.(ÿê§¯8É©ßÆü1

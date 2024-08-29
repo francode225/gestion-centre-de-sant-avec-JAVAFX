@@ -1,0 +1,12 @@
+
+h	java:S112«"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ÑØ¦¸ü1
+u
+java:S1602b"SRemove useless curly braces around statement and then remove useless return keyword(õÏ˜Ìüÿÿÿÿ8ø­ƒ¡û1
+I
+java:S1602j",Remove useless curly braces around statement(®ú¤°8¨Ù¦¸ü1
+p
+java:S1602~"SRemove useless curly braces around statement and then remove useless return keyword(¶©–œ8®Ù¦¸ü1
+J
+java:S1602†",Remove useless curly braces around statement(®ú¤°8¾Ù¦¸ü1
+J
+java:S1602²",Remove useless curly braces around statement(‚ÍÙÍ8Ú¦¸ü1

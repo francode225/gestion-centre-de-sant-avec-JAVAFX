@@ -1,0 +1,44 @@
+
+u	java:S1164"YRename this field "view_infirmier" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àì²œ8‹‰õ»ü1
+|	java:S1167"[Rename this field "view_laboratoire" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âö´¼úÿÿÿÿ8Œ‰õ»ü1
+x	java:S116:"WRename this field "view_medecin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ğåüÿÿÿÿ8Œ‰õ»ü1
+s	java:S116="WRename this field "view_patient" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±î‚ 8Œ‰õ»ü1
+z	java:S116@"YRename this field "view_principal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿­ô“üÿÿÿÿ8Œ‰õ»ü1
+|	java:S116C"[Rename this field "view_principale1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êæ‹°ûÿÿÿÿ8Œ‰õ»ü1
+>	java:S131k""Add a default case to this switch.(§úß8‰õ»ü1
+J
+java:S1602€",Remove useless curly braces around statement(îë‚é8 ‰õ»ü1
+O
+java:S1602„",Remove useless curly braces around statement(™æ‡„üÿÿÿÿ8¡‰õ»ü1
+O
+java:S1602",Remove useless curly braces around statement(Áûİ€ıÿÿÿÿ8¢‰õ»ü1
+O
+java:S1602”",Remove useless curly braces around statement(åí¥ôøÿÿÿÿ8¢‰õ»ü1
+O
+java:S1602 ",Remove useless curly braces around statement(Õš àùÿÿÿÿ8£‰õ»ü1
+J
+java:S1602¤",Remove useless curly braces around statement(ó¶¢Å8¤‰õ»ü1
+J
+java:S1602°",Remove useless curly braces around statement(²–õ¿8§‰õ»ü1
+J
+java:S1602´",Remove useless curly braces around statement(¾Ş8¨‰õ»ü1
+O
+java:S1602À",Remove useless curly braces around statement(…¼ÌÓûÿÿÿÿ8©‰õ»ü1
+O
+java:S1602Ä",Remove useless curly braces around statement(Ï¿‡«şÿÿÿÿ8ª‰õ»ü1
+v
+java:S1602à"SRemove useless curly braces around statement and then remove useless return keyword(§”‹ûÿÿÿÿ8´‰õ»ü1
+q
+java:S1602ê"SRemove useless curly braces around statement and then remove useless return keyword(¹‘•‹8åÁõ»ü1
+b
+java:S1128"FRemove this unused import 'com.example.javaweb.alem.core.SoinsButton'.(‰¢‘8ñÒö»ü1
+@
+java:S1128"Remove this duplicated import.(®Üı…øÿÿÿÿ8µ‰õ»ü1
+z
+java:S1128"XRemove this unused import 'com.example.javaweb.alem.model.infirmerie.PatientInfirmerie'.(˜Ù‹şùÿÿÿÿ8òÒö»ü1
+\
+java:S1128	":Remove this unused import 'javafx.beans.binding.Bindings'.(ÕÔ‡úÿÿÿÿ8òÒö»ü1
+U
+java:S1128"3Remove this unused import 'javafx.geometry.Insets'.(›¨µğûÿÿÿÿ8òÒö»ü1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8òÒö»ü1

@@ -1,0 +1,21 @@
+
+u
+java:S16023"SRemove useless curly braces around statement and then remove useless return keyword(¯µïúøÿÿÿÿ8˜ÕÖ„û1
+N
+java:S1602:",Remove useless curly braces around statement(«ğŠéùÿÿÿÿ8ûÈ”û1
+Y
+java:S1128"<Remove this unused import 'com.example.javaweb.alem.Router'.(¨¾÷à8¢Âô û1
+j
+java:S1128"MRemove this unused import 'com.example.javaweb.alem.core.ConsultationButton'.(Ïè•’8¢Âô û1
+\
+java:S1128"?Remove this unused import 'com.example.javaweb.alem.core.Help'.(ĞìŞ€8¢Âô û1
+u
+java:S1128"XRemove this unused import 'com.example.javaweb.alem.model.medecine.PatientConsultation'.(Ìîâ©8¢Âô û1
+x
+java:S1128	"VRemove this unused import 'com.example.javaweb.alem.model.secretariat.PatientAccueil'.(Ü¤ñÚÿÿÿÿÿ8¢Âô û1
+Z
+java:S1128"8Remove this unused import 'javafx.scene.control.Button'.(Ë Í‹øÿÿÿÿ8¢Âô û1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¢Âô û1
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8¢Âô û1

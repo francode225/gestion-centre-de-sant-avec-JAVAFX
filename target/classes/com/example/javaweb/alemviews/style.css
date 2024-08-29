@@ -1,0 +1,41 @@
+/* HTML */
+/* Assurez-vous d'avoir un élément avec la classe "floating" dans votre HTML */
+
+/* CSS */
+@font-face {
+    font-family: "freeman";
+    src: url("Freeman/Freeman-Regular.ttf");
+}
+
+.connexion-text{
+    font-family: "freeman";
+}
+
+.accueil-text{
+    -fx-font-family: "freeman";
+    -fx-font-size: 27;
+}
+
+.back-blue{
+    -fx-background-color: rgb(79, 135, 237);
+    background-color: rgb(79, 135, 237);
+}
+
+.connexion-button{
+    -fx-background-color: rgba(103, 238, 211, 0.767);
+    background-color: rgb(103, 238, 211);
+    -fx-border-radius: 5px
+}
+
+.connexion-button:hover{
+    -fx-background-color: rgb(79, 135, 237);
+    background-color: rgb(79, 135, 237);
+    -fx-border-style: solid;
+    -fx-border-color:black;
+
+}
+
+.accueil-back-white {
+    -fx-background-color:     linear-gradient(to bottom,rgba(103, 238, 211, 0.767) , white);
+
+}

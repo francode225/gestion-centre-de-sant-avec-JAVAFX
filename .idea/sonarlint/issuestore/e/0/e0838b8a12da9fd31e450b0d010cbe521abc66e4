@@ -1,0 +1,9 @@
+
+`	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+>	java:S1083")Either remove or fill this block of code.(Úîø›
+K
+java:S1128"5Remove this unused import 'javax.sql.StatementEvent'.(Ú “
+D
+java:S1128	"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw
+E
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø

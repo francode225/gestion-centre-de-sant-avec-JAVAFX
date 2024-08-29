@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="728.0" prefWidth="1205.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="192.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="461.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="555.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="54.400000000000006" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="348.80000000000007" vgrow="ALWAYS" />
+    </rowConstraints>
+    <children>
+        <GridPane prefHeight="674.0" prefWidth="326.0" style="-fx-background-color: #2262C6; -fx-background-radius: 0px 15px 0px 0px;" GridPane.rowIndex="1">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="72.99999542236327" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="601.0000045776367" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <GridPane fx:id="gridSide" GridPane.rowIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="58.400018310546876" minWidth="10.0" prefWidth="12.800005149841311" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="200.79999485015873" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="485.8" minHeight="0.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="485.8" minHeight="0.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="558.8" minHeight="0.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="558.8" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="558.8" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="558.8" minHeight="10.0" prefHeight="328.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="558.8" minHeight="10.0" prefHeight="82.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label fx:id="constantesText" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 15px;" text="Liste Medecins" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label fx:id="soinsText" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: white; -fx-background-radius: 15px;" text="Liste Patients" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <GridPane.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Button fx:id="deconnexionButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: red;" text="DECONNEXION" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                            <effect>
+                                <Reflection />
+                            </effect>
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                        <Label fx:id="soinsText1" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 15px;" text="Liste Infirmiers" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <GridPane.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label fx:id="soinsText11" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="65.0" prefWidth="164.0" style="-fx-background-color: white; -fx-background-radius: 15px;" text="Soins" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <GridPane.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label fx:id="soinsText111" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="61.0" prefWidth="159.0" style="-fx-background-color: white; -fx-background-radius: 15px;" text="Soins" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <GridPane.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </GridPane.margin>
+                        </Label>
+                    </children>
+                </GridPane>
+                <Label fx:id="soinsText112" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="65.0" prefWidth="164.0" style="-fx-background-color: white; -fx-background-radius: 15px;" text="Tableau de board">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <GridPane.margin>
+                        <Insets bottom="20.0" left="20.0" right="10.0" top="15.0" />
+                    </GridPane.margin>
+                </Label>
+            </children>
+        </GridPane>
+        <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="140.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="398.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="275.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <GridPane prefHeight="309.0" prefWidth="460.0" GridPane.rowIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="92.0" minHeight="0.0" prefHeight="44.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="156.0" minHeight="10.0" prefHeight="114.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="152.0" minHeight="10.0" prefHeight="117.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <StackPane GridPane.rowIndex="1" />
+                        <StackPane prefHeight="123.0" prefWidth="230.0" GridPane.rowIndex="1">
+                            <children>
+                                <Pane prefHeight="200.0" prefWidth="210.0" style="-fx-background-color: #ebf2fa; -fx-background-radius: 10;">
+                                    <StackPane.margin>
+                                        <Insets bottom="20.0" left="10.0" right="10.0" top="40.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                                <Pane prefHeight="38.0" prefWidth="167.0" style="-fx-background-color: #C0E8F9; -fx-background-radius: 50;">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <StackPane.margin>
+                                        <Insets bottom="30.0" left="20.0" right="20.0" top="50.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="123.0" prefWidth="230.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <children>
+                                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ebf2fa; -fx-background-radius: 10;">
+                                    <StackPane.margin>
+                                        <Insets bottom="40.0" left="10.0" right="10.0" top="40.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                                <Pane prefHeight="38.0" prefWidth="167.0" style="-fx-background-color: #C0E8F9; -fx-background-radius: 50;">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <StackPane.margin>
+                                        <Insets bottom="50.0" left="20.0" right="20.0" top="50.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="123.0" prefWidth="230.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <children>
+                                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ebf2fa; -fx-background-radius: 10;">
+                                    <StackPane.margin>
+                                        <Insets bottom="20.0" left="10.0" right="10.0" top="40.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                                <Pane prefHeight="38.0" prefWidth="167.0" style="-fx-background-color: #C0E8F9; -fx-background-radius: 50;">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <StackPane.margin>
+                                        <Insets bottom="30.0" left="20.0" right="20.0" top="50.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="123.0" prefWidth="230.0" GridPane.rowIndex="2">
+                            <children>
+                                <Pane prefHeight="53.0" prefWidth="210.0" style="-fx-background-color: #ebf2fa; -fx-background-radius: 10;">
+                                    <StackPane.margin>
+                                        <Insets bottom="30.0" left="10.0" right="10.0" top="10.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                                <Pane prefHeight="38.0" prefWidth="167.0" style="-fx-background-color: #C0E8F9; -fx-background-radius: 50;">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <StackPane.margin>
+                                        <Insets bottom="40.0" left="20.0" right="20.0" top="20.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                            </children>
+                            <GridPane.margin>
+                                <Insets />
+                            </GridPane.margin>
+                            <padding>
+                                <Insets bottom="20.0" />
+                            </padding>
+                        </StackPane>
+                        <StackPane prefHeight="123.0" prefWidth="230.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <children>
+                                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ebf2fa; -fx-background-radius: 10;">
+                                    <StackPane.margin>
+                                        <Insets bottom="30.0" left="10.0" right="10.0" top="10.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                                <Pane prefHeight="38.0" prefWidth="167.0" style="-fx-background-color: #C0E8F9; -fx-background-radius: 50;">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <StackPane.margin>
+                                        <Insets bottom="40.0" left="20.0" right="20.0" top="20.0" />
+                                    </StackPane.margin>
+                                </Pane>
+                            </children>
+                            <GridPane.margin>
+                                <Insets bottom="20.0" />
+                            </GridPane.margin>
+                        </StackPane>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="230.0" text="Personnels du Centre" textFill="#2262c6">
+                            <font>
+                                <Font name="Berlin Sans FB" size="25.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </GridPane>
+                <GridPane prefHeight="352.0" prefWidth="460.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="154.0" minHeight="10.0" prefHeight="96.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="297.0" minHeight="10.0" prefHeight="289.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <GridPane GridPane.rowIndex="1">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="436.0" minWidth="10.0" prefWidth="252.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="10.0" prefWidth="208.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <LineChart prefHeight="295.0" prefWidth="250.0">
+                                    <xAxis>
+                                        <CategoryAxis side="BOTTOM" />
+                                    </xAxis>
+                                    <yAxis>
+                                        <NumberAxis side="LEFT" />
+                                    </yAxis>
+                                </LineChart>
+                                <GridPane GridPane.columnIndex="1">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="164.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="164.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="171.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="117.0" minHeight="10.0" prefHeight="107.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <Label prefHeight="33.0" prefWidth="98.0" text="Label" GridPane.rowIndex="1" />
+                                    </children>
+                                </GridPane>
+                            </children>
+                        </GridPane>
+                        <Label alignment="CENTER" prefHeight="48.0" prefWidth="322.0" text="Bienvenue XXX ," textFill="#2262c6">
+                            <font>
+                                <Font name="Berlin Sans FB" size="43.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </GridPane>
+            </children>
+        </GridPane>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="199.39999389648438" minWidth="10.0" prefWidth="62.600012207031256" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="288.20001220703125" minWidth="10.0" prefWidth="150.59998779296876" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <ImageView fitHeight="52.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <image>
+                        <Image url="@" />
+                    </image></ImageView>
+                <Label alignment="CENTER" prefHeight="41.0" prefWidth="101.0" text="Medi Med" textFill="#2262c6" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Berlin Sans FB" size="23.0" />
+                    </font>
+                </Label>
+            </children>
+        </GridPane>
+        <Label fx:id="tableLabel" text="Label" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font></Label>
+        <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="328.0" minHeight="10.0" prefHeight="171.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="514.0" minHeight="10.0" prefHeight="502.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Pane prefHeight="149.0" prefWidth="180.0" styleClass="card">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <GridPane.margin>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </GridPane.margin>
+                            <children>
+                                <ImageView fitHeight="112.0" fitWidth="146.0" layoutX="8.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@images/doctor.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="153.0" layoutY="39.0" prefWidth="52.0" text="XXX">
+                                    <font>
+                                        <Font name="System Bold" size="24.0" />
+                                    </font></Label>
+                                <Label layoutX="142.0" layoutY="77.0" prefHeight="26.0" prefWidth="74.0" text="Patients">
+                                    <font>
+                                        <Font name="System Bold" size="17.0" />
+                                    </font></Label>
+                            </children>
+                        </Pane>
+                        <Pane prefHeight="149.0" prefWidth="180.0" style="-fx-background-color: #9fffcb; -fx-background-radius: 10;" GridPane.columnIndex="1">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <GridPane.margin>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </GridPane.margin>
+                            <children>
+                                <ImageView fitHeight="138.0" fitWidth="112.0" layoutX="13.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@images" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="152.0" layoutY="42.0" text="XXX">
+                                    <font>
+                                        <Font name="System Bold" size="24.0" />
+                                    </font></Label>
+                                <Label layoutX="131.0" layoutY="77.0" prefHeight="26.0" prefWidth="101.0" text="Consultations">
+                                    <font>
+                                        <Font name="System Bold" size="15.0" />
+                                    </font></Label>
+                            </children>
+                        </Pane>
+                    </children>
+                </GridPane>
+                <Pane prefHeight="200.0" prefWidth="507.0" style="-fx-background-color: #00a5cf; -fx-background-radius: 10;" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets bottom="40.0" left="15.0" right="15.0" top="15.0" />
+                    </GridPane.margin>
+                    <children>
+                        <StackPane layoutX="33.0" layoutY="29.0" prefHeight="390.0" prefWidth="248.0">
+                            <children>
+                                <Pane prefHeight="390.0" prefWidth="372.0" style="-fx-background-color: #004e64; -fx-background-radius: 10;">
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="36.0" prefHeight="32.0" prefWidth="130.0" text="Découvré" textFill="#fffdfd">
+                                            <font>
+                                                <Font name="System Bold" size="25.0" />
+                                            </font></Label>
+                                        <Label layoutX="14.0" layoutY="132.0" prefHeight="36.0" prefWidth="190.0" text="Via ce bouton " textFill="#fffdfd">
+                                            <font>
+                                                <Font name="System Bold" size="25.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="14.0" layoutY="82.0" prefHeight="32.0" prefWidth="130.0" text="Notre Cite" textFill="#fffdfd">
+                                            <font>
+                                                <Font name="System Bold" size="25.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="14.0" layoutY="177.0" prefHeight="36.0" prefWidth="190.0" text="Pour plus " textFill="#fffdfd">
+                                            <font>
+                                                <Font name="System Bold" size="25.0" />
+                                            </font>
+                                        </Label>
+                                        <Button fx:id="deconnexionButton1" alignment="CENTER" contentDisplay="CENTER" layoutX="37.0" layoutY="284.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: red;" text="VOIR PLUS" textFill="WHITE">
+                                            <effect>
+                                                <Reflection />
+                                            </effect>
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                        <Label layoutX="14.0" layoutY="223.0" prefHeight="36.0" prefWidth="190.0" text="D'Information" textFill="#fffdfd">
+                                            <font>
+                                                <Font name="System Bold" size="25.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </Pane>
+                            </children>
+                        </StackPane>
+                        <ImageView fitHeight="400.0" fitWidth="399.0" layoutX="145.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images" />
+                            </image></ImageView>
+                    </children>
+                </Pane>
+            </children>
+        </GridPane>
+    </children>
+</GridPane>

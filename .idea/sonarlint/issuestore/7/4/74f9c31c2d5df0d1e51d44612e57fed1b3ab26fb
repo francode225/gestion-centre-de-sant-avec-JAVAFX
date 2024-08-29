@@ -1,0 +1,26 @@
+
+o
+java:S1192w"MDefine a constant instead of duplicating this literal "acte_medical" 4 times.(ˆéÀåüÿÿÿÿ8Òæ‹£û1
+m
+java:S1192_"PDefine a constant instead of duplicating this literal "id_consultation" 5 times.(ô“êÆ8‚ƒ“·ü1
+o
+java:S1192v"MDefine a constant instead of duplicating this literal "diagnostique" 4 times.(¨†¸Îÿÿÿÿÿ8Ôæ‹£û1
+
+java:S4087b"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(³úÀ‹8Õ‡“·ü1
+o
+java:S3776„"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ÏÖ±/8Óç‹£û1
+H	java:S106¿"+Replace this use of System.out by a logger.(ÿê§¯8Öç‹£û1
+H	java:S106Æ"+Replace this use of System.out by a logger.(‡É»á8Ðˆ“·ü1
+p
+java:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‡¦ƒ®8Ûç‹£û1
+H	java:S106¼"+Replace this use of System.out by a logger.(ÿê§¯8Ýç‹£û1
+Q
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8µ‰“·ü1
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8µ‰“·ü1
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8µ‰“·ü1
+J
+java:S1128"-Remove this unused import 'java.time.ZoneId'.( Æ½“8µ‰“·ü1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8¶‰“·ü1

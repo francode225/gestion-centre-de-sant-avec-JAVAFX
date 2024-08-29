@@ -1,0 +1,7 @@
+
+g	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‚šØ»ü1
+Q
+java:S3740"/Provide the parametrized type for this generic.(¡íŒ™úÿÿÿÿ8—šØ»ü1
+o
+java:S2786"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(êíÍà8§šØ»ü1
+L	java:S106!"+Replace this use of System.out by a logger.(†àğñùÿÿÿÿ8«šØ»ü1
